@@ -77,7 +77,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
         jLabel2.setText("Username:");
 
-        btnLogin.setBackground(new java.awt.Color(255, 0, 0));
+        btnLogin.setBackground(new java.awt.Color(0, 153, 255));
         btnLogin.setText("Login");
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -131,7 +131,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
         splitPane.setLeftComponent(jPanel2);
 
-        userProcessContainer.setBackground(new java.awt.Color(255, 255, 255));
+        userProcessContainer.setBackground(new java.awt.Color(51, 204, 0));
         userProcessContainer.setLayout(new java.awt.CardLayout());
         splitPane.setRightComponent(userProcessContainer);
 

@@ -111,6 +111,8 @@ SalesPersonProfile sales;
         jLabel9 = new javax.swing.JLabel();
         txtFrequencyBelowTarget = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(255, 51, 51));
+
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);

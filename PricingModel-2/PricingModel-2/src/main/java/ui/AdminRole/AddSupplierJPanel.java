@@ -1,3 +1,4 @@
+//UI
 package ui.AdminRole;
 
 import java.awt.CardLayout;
@@ -48,23 +49,19 @@ public class AddSupplierJPanel extends javax.swing.JPanel {
         setForeground(new java.awt.Color(102, 0, 0));
 
         lblTitle.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        lblTitle.setForeground(new java.awt.Color(102, 0, 0));
         lblTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblTitle.setText("New Supplier Information");
 
-        lblName.setForeground(new java.awt.Color(102, 0, 0));
         lblName.setText("Name:");
 
         txtName.setBackground(new java.awt.Color(204, 255, 204));
 
-        lblPhone.setForeground(new java.awt.Color(102, 0, 0));
         lblPhone.setText("Phone:");
         lblPhone.setEnabled(false);
 
         txtPhone.setBackground(new java.awt.Color(204, 255, 204));
         txtPhone.setEnabled(false);
 
-        lblEmail.setForeground(new java.awt.Color(102, 0, 0));
         lblEmail.setText("Email:");
         lblEmail.setEnabled(false);
 

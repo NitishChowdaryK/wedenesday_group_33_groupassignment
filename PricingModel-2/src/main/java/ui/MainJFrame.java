@@ -70,10 +70,14 @@ public class MainJFrame extends javax.swing.JFrame {
         splitPane.setDividerLocation(150);
         splitPane.setOpaque(false);
 
+        jPanel2.setBackground(new java.awt.Color(153, 255, 102));
+
+        jLabel1.setBackground(new java.awt.Color(255, 102, 102));
         jLabel1.setText("Password:");
 
         jLabel2.setText("Username:");
 
+        btnLogin.setBackground(new java.awt.Color(255, 0, 0));
         btnLogin.setText("Login");
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

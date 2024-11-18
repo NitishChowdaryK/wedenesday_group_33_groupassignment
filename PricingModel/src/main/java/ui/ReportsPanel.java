@@ -19,6 +19,7 @@ public class ReportsPanel extends JPanel {
         this.business = business;
         setLayout(new BorderLayout());
 
+        // Button to generate the detailed report
         generateReportButton = new JButton("Generate Detailed Report");
         generateReportButton.setToolTipText("Click here to get a detailed performance report for all products.");
         generateReportButton.addActionListener(new ActionListener() {
@@ -28,6 +29,7 @@ public class ReportsPanel extends JPanel {
             }
         });
 
+        // Adding button to the panel
         add(generateReportButton, BorderLayout.NORTH);
     }
 
@@ -62,8 +64,8 @@ public class ReportsPanel extends JPanel {
                     report.append("    - Revenue data unavailable\n");
                 }
 
-                report.append(String.format("    - Sales Above Goal: %d\n", summary.getNumberAboveTarget()));
-                report.append(String.format("    - Sales Below Goal: %d\n", summary.getNumberBelowTarget()));
+                report.append(String.format("    - Sales Above Target: %d\n", summary.getNumberAboveTarget()));
+                report.append(String.format("    - Sales Below Target: %d\n", summary.getNumberBelowTarget()));
                 report.append("\n");
             }
             report.append("\n");

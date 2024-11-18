@@ -62,8 +62,8 @@ public class ReportsPanel extends JPanel {
                     report.append("    - Revenue data unavailable\n");
                 }
 
-                report.append(String.format("    - Sales Above Target: %d\n", summary.getNumberAboveTarget()));
-                report.append(String.format("    - Sales Below Target: %d\n", summary.getNumberBelowTarget()));
+                report.append(String.format("    - Sales Above Goal: %d\n", summary.getNumberAboveTarget()));
+                report.append(String.format("    - Sales Below Goal: %d\n", summary.getNumberBelowTarget()));
                 report.append("\n");
             }
             report.append("\n");

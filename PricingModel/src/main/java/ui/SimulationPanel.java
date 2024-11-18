@@ -82,12 +82,10 @@ public class SimulationPanel extends JPanel {
             }
         });
 
-        // Tooltips
         percentageField.setToolTipText("Enter the percentage change for target prices (e.g., 10 for 10%).");
         runSimulationButton.setToolTipText("Click to run the simulation and update target prices.");
         resultsArea.setToolTipText("View the simulation results here.");
 
-        // Adding the maximize profit button
         maximizeProfitButton = new JButton("Maximize Profit");
         maximizeProfitButton.addActionListener(new ActionListener() {
             @Override

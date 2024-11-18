@@ -9,6 +9,7 @@ import java.awt.*;
 import model.Business.Business;
 import model.Business.ConfigureABusiness;
 
+//PricingModel
 public class PricingApp extends JFrame {
 
     private Business business;

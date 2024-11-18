@@ -74,7 +74,6 @@ public class SimulationPanel extends JPanel {
                     }
                 }
 
-                // Show confirmation dialog
                 JOptionPane.showMessageDialog(SimulationPanel.this, 
                         "Simulation completed successfully.", 
                         "Simulation Complete", 

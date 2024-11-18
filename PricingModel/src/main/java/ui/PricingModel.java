@@ -34,7 +34,7 @@ public class PricingModel {
         tabbedPane.addTab("Browse for Products", new BrowseProductsPanel(business));
         tabbedPane.addTab("Adjust the Prices of products", new AdjustPricesPanel(business));
         tabbedPane.addTab("Simulate", new SimulationPanel(business));
-        tabbedPane.addTab("Generate the Reports", new ReportsPanel(business));
+        tabbedPane.addTab("Generate Reports", new ReportsPanel(business));
 
         frame.add(tabbedPane);
         frame.setVisible(true);
